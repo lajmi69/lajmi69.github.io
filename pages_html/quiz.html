@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Quizz</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+
+        <nav> 
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
+              </div>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="parcours_academique.html">Parcours Académique</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="stages.html">Stages et Expériences</a></li>
+                <li><a href="evenements_scientifiques.html">Événements Scientifiques</a></li>
+                <li><a href="matieres.html">Matières Étudiées</a></li>
+                <li><a href="passions.html">Passions et Qualités</a></li>
+                <li><a href="quiz.html">Quizz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="temoignage.html">Témoignages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quizz">
+        <h2>Quiz sur Web</h2>
+        <div class="form-q">
+        <form name="form_quiz">
+            <fieldset>
+                <legend>Thématique 1: Langages de Programmation</legend>
+                <label><input type="radio" name="thematique1" value="HTML"> HTML</label>
+                <label><input type="radio" name="thematique1" value="CSS"> CSS</label>
+                <label><input type="radio" name="thematique1" value="JavaScript"> JavaScript</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Thématique 2: Frameworks Front-End</legend>
+                <label><input type="radio" name="thematique2" value="React"> React</label>
+                <label><input type="radio" name="thematique2" value="Angular"> Angular</label>
+                <label><input type="radio" name="thematique2" value="Vue"> Vue.js</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Thématique 3: Langages Back-End</legend>
+                <label><input type="radio" name="thematique3" value="Node"> Node.js</label>
+                <label><input type="radio" name="thematique3" value="Python"> Python</label>
+                <label><input type="radio" name="thematique3" value="Ruby"> Ruby</label>
+            </fieldset> 
+            <fieldset>
+                <legend>Thématique 4: Langages Côté Serveur</legend>
+                <label><input type="radio" name="thematique4" value="Node.js"> Node.js</label>
+                <label><input type="radio" name="thematique4" value="Ruby on Rails"> Ruby on Rails</label>
+                <label><input type="radio" name="thematique4" value="Django"> Django</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Thématique 5: Bases de Données</legend>
+                <label><input type="radio" name="thematique5" value="MySQL"> MySQL</label>
+                <label><input type="radio" name="thematique5" value="MongoDB"> MongoDB</label>
+                <label><input type="radio" name="thematique5" value="PostgreSQL"> PostgreSQL</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Thématique 6: Sécurité Web</legend>
+                <label><input type="radio" name="thematique6" value="SSL/TLS"> SSL/TLS</label>
+                <label><input type="radio" name="thematique6" value="Cross-Site Scripting"> Cross-Site Scripting</label>
+                <label><input type="radio" name="thematique6" value="OWASP Top 10"> OWASP Top 10</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Thématique 7: Outils de Développement</legend>
+                <label><input type="radio" name="thematique7" value="Git"> Git</label>
+                <label><input type="radio" name="thematique7" value="Webpack"> Webpack</label>
+                <label><input type="radio" name="thematique7" value="VS Code"> VS Code</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Thématique 8: Déploiement et Hébergement</legend>
+                <label><input type="radio" name="thematique8" value="Heroku"> Heroku</label>
+                <label><input type="radio" name="thematique8" value="AWS"> AWS</label>
+                <label><input type="radio" name="thematique8" value="Netlify"> Netlify</label>
+            </fieldset>
+            
+    
+           <br>
+    
+            <input type="button" id="submitBtn" value="Envoyer" onclick="reponse(form_quiz)">
+        </form> 
+        <br>
+        <div id="score">
+
+        </div>
+    </div>
+       
+    </section>
+    <footer>
+      
+        <div class="eldroite">
+            <div class="contactinfo"><img src="../images/telephone.png" alt="telephone"><p>&nbsp;+216 27989608</p></div><br>
+            <div class="contactinfo"><img src="../images/email.png" alt="email"><p>&nbsp;&nbsp;Lajmi591@gmail.com</p></div>
+        </div>
+   
+    
+</footer>
+
+   <script src="../js/scripts.js"></script>
+
+  
+
+</body>
+</html>
